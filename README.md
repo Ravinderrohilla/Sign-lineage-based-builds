@@ -9,3 +9,6 @@ cd vendor/lineage-priv/keys
 ```bash
 ./generate.sh
 ```
+#include in device.mk
+```bash
+-include vendor/lineage-priv/keys/keys.mk
